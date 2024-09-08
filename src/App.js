@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='head'>
       <h1>Checkout Stepper</h1>
-      <Stepper StepsConfig= {CheckOutSteps} />
+      <Stepper stepsConfig= {CheckOutSteps} />
     </div>
   );
 }
