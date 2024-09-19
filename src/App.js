@@ -1,30 +1,19 @@
-import Stepper from './components/Stepper';
-import './App.css';
-
-const CheckOutSteps = [
-  {
-    name: "Customer Info",
-    Component: () => <div>Provide Your Contact details.</div>,
-  },
-  {
-    name: "Shipping Address",
-    Component: () => <div>Enter Your Shipping Address.</div>,
-  },
-  {
-    name: "Payment",
-    Component: () => <div>Complete For Your Order.</div>,
-  },
-  {
-    name: "Delivered",
-    Component: () => <div>Your Order has been delivered.</div>,
-  },
-];
+import Login from "./components/Login";
 
 function App() {
+  const a = 30;
+  const b = 22;
   return (
     <div className='head'>
-      <h1>Checkout Stepper</h1>
-      <Stepper stepsConfig= {CheckOutSteps} />
+      <Login />
+      <h1>Hello World</h1>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+      </ul>
+      <h2>Hey</h2>
+      <span title="sum">{a+b}</span>
     </div>
   );
 }
