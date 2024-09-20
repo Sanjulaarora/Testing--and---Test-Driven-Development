@@ -13,9 +13,9 @@ const Login = () => {
             <button disabled={ !user || !password }>Login</button>
             <span 
               data-testid="error"
-              style={{visibility: error ? "visible" : "hidden" }}
+              style={{ visibility: error ? "visible" : "hidden" }}
             >
-                something went wrong!
+              something went wrong!
             </span>
         </form>
     </div>
